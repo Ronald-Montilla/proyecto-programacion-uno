@@ -38,6 +38,10 @@ int longitud(const lista *ptrLista) {
     return ptrLista->longitud;
 }
 
+int numMaxEspecies(void) {
+    return NUM_ESPECIES;
+}
+
 void eliminar(lista *ptrLista, int posicion) {
     // Elimina un elemento de la pokedex
     // pre: posSelec >= 0 && posSelec < longitud(list)
